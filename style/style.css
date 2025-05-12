@@ -1,3 +1,7 @@
+.color {
+    background-color: whitesmoke;
+}
+
 .nav-banner {
     display: flex;
     margin: 0px auto;
@@ -106,7 +110,7 @@ header>nav>a {
 .pillar {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 12px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
 }
 
 .image {
@@ -232,7 +236,7 @@ section {
 
 .qoute {
     height: 168px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     margin: 0px auto;
     max-width: 1270px;
@@ -262,7 +266,7 @@ section {
     line-height: 24px;
     padding-left: 16px;
     margin: 3px;
-    
+
 }
 
 .said-pp {
@@ -275,4 +279,341 @@ section {
     text-align: left;
     margin: 3px;
 
+
+}
+
+.fifth-style {
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    margin: 0px auto;
+    max-width: 1270px;
+    width: 100%;
+    padding-top: 1px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid;
+    padding: 25px;
+    margin: 0px auto;
+    max-width: 1270px;
+    width: 100%;
+
+}
+
+.fifth-div {
+    margin: 30px;
+
+}
+
+.option-1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    border-radius: 3px;
+    background: rgba(9, 161, 92, 0.15);
+    padding: 3px 8px 3px 8px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.table-data {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.q1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.q2 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.after-table {
+    margin: 0px auto;
+    max-width: 1270px;
+    width: 100%;
+}
+
+.parent-div {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+}
+
+.satelite {
+
+    border-radius: 18px;
+
+
+
+}
+
+.satelinte-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+.set {
+    margin-bottom: 0px;
+}
+
+.time {
+    display: flex;
+    gap: 20px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+
+}
+
+.desss {
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.btn1 {
+    text-decoration: none;
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    margin: 23px 0px;
+    padding: 9px 19px 9px 19px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.center {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.centerp {
+    text-align: center;
+    padding-left: 186px;
+    padding-right: 186px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.donate-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    /* border: 1px solid rgba(14, 14, 14, 0.15); */
+    /* border-radius: 13px; */
+    /* background: whitesmoke; */
+
+}
+
+.donate {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 13px;
+    margin-top: 5px;
+}
+
+.donate:hover {
+    background-color: rgb(198, 228, 214);
+    ;
+}
+
+/* input[type="text"]{
+    margin-left: 250px; 
+    margin-top: -10px;
+    width: 800px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+    
+} */
+
+.box-input {
+    width: 800px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 11px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+.btn10 {
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    margin: 23px 0px;
+    padding: 13px 23px 13px 23px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.buttonn {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.last-div {
+    margin: 0px auto;
+    max-width: 1270px;
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+    background-color: rgb(198, 228, 214);
+}
+
+.last-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+.last-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 20px;
+
+}
+
+.subscribe-input {
+    margin-top: 0px;
+    padding: 12px 20px;
+    font-size: 11px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    width: 350px;
+}
+
+.last-button {
+    background-color: #2d6a57;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+
+}
+
+.last-pp {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-class {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 170px;
+}
+
+.last-foot {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.horizontal {
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
 }
